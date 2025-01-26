@@ -55,7 +55,7 @@ Futuras mejoras:
 ![Pantalla principal](assets/pantalla-principal.png)
 
 ### Sorteo en acción
-![Sorteo realizado](assets/sorteo-realizado.png)
+![Sorteo realizado](assets/ejemplo-sorteo.png)
 
 ---
 
