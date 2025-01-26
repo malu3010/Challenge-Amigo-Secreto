@@ -62,7 +62,7 @@ Futuras mejoras:
 ## 🔗 Acceso al Proyecto
 
 ### 🌐 Ver en línea:
-Puedes acceder al proyecto en este [enlace](https://github.com/malu3010/Challenge-Amigo-secreto).
+Puedes acceder al proyecto en este [enlace](https://malu3010.github.io/Challenge-Amigo-Secreto/).
 
 ### 📂 Cómo descargar el proyecto:
 1. Clona este repositorio:
