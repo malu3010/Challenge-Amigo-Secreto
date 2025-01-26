@@ -35,7 +35,7 @@ Futuras mejoras:
 
 ---
 
-## ⚙️ Características
+## Características
 
 - **Agregar nombres:** 
   Los usuarios pueden ingresar nombres en un campo de texto y agregarlos a una lista visible al hacer clic en "Añadir".
@@ -49,7 +49,7 @@ Futuras mejoras:
 
 ---
 
-## 🖼️ Capturas de Pantalla
+## Capturas de Pantalla
 
 ### Pantalla principal
 ![Pantalla principal](assets/pantalla-principal.png)
@@ -59,7 +59,7 @@ Futuras mejoras:
 
 ---
 
-## 🔗 Acceso al Proyecto
+## Acceso al Proyecto
 
 ### 🌐 Ver en línea:
 Puedes acceder al proyecto en este [enlace](https://malu3010.github.io/Challenge-Amigo-Secreto/).
