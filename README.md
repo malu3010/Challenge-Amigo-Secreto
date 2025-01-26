@@ -67,4 +67,4 @@ Puedes acceder al proyecto en este [enlace](https://malu3010.github.io/Challenge
 ### 📂 Cómo descargar el proyecto:
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/amigo-secreto.git
+   git clone https://github.com/tu-usuario/amigo-secreto.git](https://github.com/malu3010/Challenge-Amigo-Secreto.git
