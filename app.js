@@ -37,6 +37,8 @@ function agregarAmigosListaHTML() {
         const elemento = document.createElement('li');
         //Asignar el nombre del amigo como contenido de texto.
         elemento.textContent = nombreAmigosUsuario[cantidadNombres];
+        // Asignar un atributo data-index al elemento <li>.
+        elemento.setAttribute('data-index', cantidadNombres);
         //Agregar el elemento <li> a la lista.
         lista.appendChild(elemento);
     }
@@ -48,10 +50,13 @@ function sortearAmigo() {
         //Seleccionar un índice aleatorio dentro del rango del array.
         let indiceAleatorio = Math.floor(Math.random()*(nombreAmigosUsuario.length))
         //Utilizar el índice aleatorio para acceder al nombre correspondiente en el arreglo.
-        let nombreAleatorio = nombreAmigosUsuario[indiceAleatorio];
+        let amigoSorteado = nombreAmigosUsuario[indiceAleatorio];
         //Mostrar el amigo sorteado.
-        asignarTextoElemento('resultado', nombreAleatorio);
+        asignarTextoElemento('resultado', amigoSorteado);
+        //Eliminar amigo sorteado de la lista de sorteo.
+        eliminarAmigoDeLista(indiceAleatorio);
     } else {
+        asignarTextoElemento('resultado', '');
         alert("No hay amigos en la lista para sortear.");
     }
 }
@@ -60,4 +65,12 @@ function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.getElementById(elemento);
     elementoHTML.innerHTML = texto;
     return;
+}
+
+//Eliminar el nombre del Amigo Sorteado del array, para que el usuario saque un nombre diferente cada vez.
+function eliminarAmigoDeLista(indiceAleatorio) {
+    nombreAmigosUsuario.splice(indiceAleatorio,1)
+
+    // Reconstruye toda la lista con los nuevos índices.
+    agregarAmigosListaHTML();
 }
