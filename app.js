@@ -70,7 +70,6 @@ function asignarTextoElemento(elemento, texto) {
 //Eliminar el nombre del Amigo Sorteado del array, para que el usuario saque un nombre diferente cada vez.
 function eliminarAmigoDeLista(indiceAleatorio) {
     nombreAmigosUsuario.splice(indiceAleatorio,1)
-
     // Reconstruye toda la lista con los nuevos índices.
     agregarAmigosListaHTML();
 }
